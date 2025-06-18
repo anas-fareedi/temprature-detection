@@ -8,12 +8,19 @@ This project predicts the next day's minimum temperature using historical daily 
 
 📦temperature-prediction
 ├── processed.csv # Final preprocessed dataset
+
 ├── daily-min-temperatures.csv # Raw temperature data
+
 ├── temp_scaler.joblib # Scaler for temperature normalization
+
 ├── scaler.joblib # Scaler for input features
+
 ├── model_train.py # LSTM training script
+
 ├── data_preprocessing.py # Data cleaning and feature engineering script
+
 ├── trained_lstm_model.h5 # Saved trained model
+
 └── README.md # You are here
 
 ---
@@ -79,6 +86,8 @@ bash
 Copy
 Edit
 python model_train.py
+
+
 👤 Author
 Anas Fareedi,Anshul verma
 
@@ -90,7 +99,9 @@ College of Engineering Roorkee (COER)
 This project is open source and free to use under the MIT License.
 
 yaml
+
 Copy
+
 Edit
 
 ---
